@@ -1,0 +1,99 @@
+.subscribe-button{
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-left: 5px;
+    transition: opacity 0.15s;
+    
+}
+.subscribe-button:hover{
+    opacity: 0.3;
+    box-shadow: black 5px 5px 5px;
+}
+.subscribe-button:active{
+    background-color: green;
+    color: black;
+}
+.jion-button{
+    background-color: white;
+    color:blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    box-shadow: black 5px 5px 5px;
+    transition: opacity 0.15s;
+    margin-bottom:30px;
+
+}
+.jion-button:hover{
+    background-color: blue;
+    color: white;
+    opacity: 0.3;
+}
+.jion-button:active{
+background-color: black;
+color: white;
+font-weight: bold;
+
+}
+.video-link{
+    font-family: Arial;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.views{
+    font-size: 14px;
+    color: grey;
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.edit{
+    
+    font-size: 14px;
+    color: grey;
+    font-family: Arial;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.body{
+    font-family: Arial;
+    font-size: 14px;
+    color: grey;
+    width: 500px;
+    line-height: 21px;
+    margin-top: 0px;
+}
+.span{
+    font-family: Arial;
+    font-weight: 14px;
+    margin-top: 0px;
+}
+.span:hover{
+    text-decoration:underline;
+}
+.model{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.search-bar{
+font-size: 15px;
+margin-bottom: 18px;
+display:block;
+}
+.video-stats{
+    width: 300px;
+    display: ;
+}
