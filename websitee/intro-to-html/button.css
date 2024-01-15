@@ -97,3 +97,22 @@ display:block;
     width: 300px;
     display: ;
 }
+
+/*linked to the practices html document outline
+table documenting*/
+.table,th,td{
+    border: 3px solid;
+    width: 50%;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: left;
+    text-align: center;
+    padding: 10px;
+}
+tr:hover{
+    background-color: blue;
+}
+tr:active{
+    background-color: gold;
+}
