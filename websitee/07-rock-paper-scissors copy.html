@@ -1,0 +1,80 @@
+(<!DOCTYPE html>
+<HTml>
+    <HEad>
+        <title>rock paper scissors</title>
+    </HEad>
+    <BODy>
+        
+
+        <p>rock paper scissors</p>
+        <button onclick="
+        playGame('rock')
+        ">rock</button>
+
+        <button onclick="
+          playGame('paper')
+        ">paper</button>
+
+        <button onclick="
+        playGame('scissors');
+       
+        ">scissors</button>
+
+
+        <script>
+            function playGame(playmove){ const computermove=pickComputermove();
+        
+            let result='';
+            if (playmove==='scissors'){ if(computermove==='rock'){
+                result='you lose';
+            } else if(computermove==='paper'){
+                result='you win';
+            } else if (computermove==='scissors'){
+                result ='tie';
+            }
+
+        } else if(playmove==='paper'){
+            if(computermove==='rock'){
+                result='you win';
+            } else if(computermove==='paper'){
+                result='tie';
+            } else if (computermove==='scissors'){
+                result ='you lose';
+            }
+
+        }else if (playmove==='rock'){
+            if(computermove==='rock'){
+                result='tie';
+            } else if(computermove==='paper'){
+                result='you lose';
+            } else if (computermove==='scissors'){
+                result ='you win';
+            }
+        }
+
+       
+
+        alert('You picked      . Computer picked scissors.tie');
+
+            }
+
+
+            function pickComputermove(){
+
+                let computermove = '';
+
+            const randomnumber =Math.random();
+
+        if (randomnumber >= 0 && randomnumber< 1/3) 
+            { computermove= 'rock';}
+        else if (randomnumber >= 1/3 && randomnumber < 2/3) 
+        { computermove='paper';}
+        else if (randomnumber >= 2/3 && randomnumber < 1)
+            { computermove='scissors'};
+            return computermove;
+            }
+        </script>
+
+
+    </BODy>
+</HTml>

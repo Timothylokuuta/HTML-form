@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTml>
+    <HEad>
+        <title>object</title>
+    </HEad>
+    <BODy>
+
+       <script>
+        const product={
+            names:'socks',
+            price:1090
+        };
+        console.log( product);
+        console.log(product.names);
+        console.log(product.price);
+
+
+        product.names='cotton socks';
+        console.log(product);
+
+        product.newproperty=true
+        console.log(product);
+
+        delete product.newproperty;
+        console.log(product);
+       </script>
+
+    </BODy>
+</HTml>

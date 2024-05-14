@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTml>
+    <HEad>
+        <title>cart Quantity</title>
+    </HEad>
+    <BODy>
+        <button onclick="
+            console.log('cart Quantity:${cartQuantity}');
+            ">show Quantity</button>
+
+        <button onclick="
+        //cartQuantity +=1; or cartQuantity++;
+        cartQuantity = cartQuantity + 1;
+        console.log('cart Quantity:${cartQuantity}');
+        ">add to cart</button>
+
+        <button onclick="
+        cartQuantity=cartQuantity+2;
+        //shortcut of this above u can insert this way. cartQuantity +=2;
+        console.log('cart Quantity:${cartQuantity}');
+        ">+2</button>
+
+        <button onclick="
+        cartQuantity=cartQuantity+3;
+        console.log('cart Quantity:${cartQuantity}');
+        ">+3</button>
+
+
+
+        <button onclick="
+        cartQuantity = 0;
+        console.log('cart was reset.')
+        console.log('cart Quantity:${cartQuantity}');
+        ">reset cart</button>
+
+        <script>
+            let cartQuantity = 0;
+
+        </script>
+
+    </BODy>
+</HTml>
